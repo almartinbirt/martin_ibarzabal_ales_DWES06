@@ -1,0 +1,7 @@
+CREATE DATABASE stock;
+USE stock;
+CREATE TABLE Producto (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    stock BOOLEAN NOT NULL
+);
